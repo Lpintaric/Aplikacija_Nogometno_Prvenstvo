@@ -1,0 +1,14 @@
+F:\uzdiz_zadaca3_verzije\lpintaric_zadaca_3\bin\Debug\lpintaric_zadaca_3.exe.config
+F:\uzdiz_zadaca3_verzije\lpintaric_zadaca_3\bin\Debug\lpintaric_zadaca_3.exe
+F:\uzdiz_zadaca3_verzije\lpintaric_zadaca_3\bin\Debug\lpintaric_zadaca_3.pdb
+F:\uzdiz_zadaca3_verzije\lpintaric_zadaca_3\obj\Debug\lpintaric_zadaca_3.csproj.AssemblyReference.cache
+F:\uzdiz_zadaca3_verzije\lpintaric_zadaca_3\obj\Debug\lpintaric_zadaca_3.csproj.CoreCompileInputs.cache
+F:\uzdiz_zadaca3_verzije\lpintaric_zadaca_3\obj\Debug\lpintaric_zadaca_3.exe
+F:\uzdiz_zadaca3_verzije\lpintaric_zadaca_3\obj\Debug\lpintaric_zadaca_3.pdb
+C:\Users\lukap\Desktop\lpintaric_zadaca_3\bin\Debug\lpintaric_zadaca_3.exe.config
+C:\Users\lukap\Desktop\lpintaric_zadaca_3\bin\Debug\lpintaric_zadaca_3.exe
+C:\Users\lukap\Desktop\lpintaric_zadaca_3\bin\Debug\lpintaric_zadaca_3.pdb
+C:\Users\lukap\Desktop\lpintaric_zadaca_3\obj\Debug\lpintaric_zadaca_3.csproj.AssemblyReference.cache
+C:\Users\lukap\Desktop\lpintaric_zadaca_3\obj\Debug\lpintaric_zadaca_3.csproj.CoreCompileInputs.cache
+C:\Users\lukap\Desktop\lpintaric_zadaca_3\obj\Debug\lpintaric_zadaca_3.exe
+C:\Users\lukap\Desktop\lpintaric_zadaca_3\obj\Debug\lpintaric_zadaca_3.pdb

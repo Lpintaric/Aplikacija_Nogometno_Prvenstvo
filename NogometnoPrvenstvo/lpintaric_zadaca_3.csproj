@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DD64EEE7-F1A1-4E1B-98A7-9A1CED2C45C0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>lpintaric_zadaca_3</RootNamespace>
+    <AssemblyName>lpintaric_zadaca_3</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entiteti\Klubovi\Igrac.cs" />
+    <Compile Include="Entiteti\Klubovi\IgracStanja\IzvanIgreState.cs" />
+    <Compile Include="Entiteti\Klubovi\IgracStanja\IgraState.cs" />
+    <Compile Include="Entiteti\Klubovi\IgracStanja\State.cs" />
+    <Compile Include="Entiteti\Klubovi\IgracStanja\ZamjenaState.cs" />
+    <Compile Include="Entiteti\Klubovi\IgracStanja\ZutiKartonState.cs" />
+    <Compile Include="Entiteti\Klubovi\Klub.cs" />
+    <Compile Include="Entiteti\Klubovi\KluboviComponent.cs" />
+    <Compile Include="Entiteti\Klubovi\Osoba.cs" />
+    <Compile Include="Entiteti\Klubovi\Trener.cs" />
+    <Compile Include="Entiteti\LigaComponent.cs" />
+    <Compile Include="Entiteti\Utakmice\Dogadaj.cs" />
+    <Compile Include="Entiteti\Utakmice\Kolo.cs" />
+    <Compile Include="Entiteti\Utakmice\Prvenstvo.cs" />
+    <Compile Include="Entiteti\Utakmice\PrvenstvoComponent.cs" />
+    <Compile Include="Entiteti\Utakmice\Raspored.cs" />
+    <Compile Include="Entiteti\Utakmice\SastavUtakmice.cs" />
+    <Compile Include="Entiteti\Utakmice\Utakmica.cs" />
+    <Compile Include="Podaci\NogometnaLigaPodaci.cs" />
+    <Compile Include="PrikazStatistike\ObradaDogadaja\DogadajHandler.cs" />
+    <Compile Include="PrikazStatistike\ObradaDogadaja\DogadajHandlerAutogol.cs" />
+    <Compile Include="PrikazStatistike\ObradaDogadaja\DogadajHandlerCrveni.cs" />
+    <Compile Include="PrikazStatistike\ObradaDogadaja\DogadajHandlerGol.cs" />
+    <Compile Include="PrikazStatistike\ObradaDogadaja\DogadajHandlerGolPenal.cs" />
+    <Compile Include="PrikazStatistike\ObradaDogadaja\DogadajHandlerKraj.cs" />
+    <Compile Include="PrikazStatistike\ObradaDogadaja\DogadajHandlerPocetak.cs" />
+    <Compile Include="PrikazStatistike\ObradaDogadaja\DogadajHandlerZamjena.cs" />
+    <Compile Include="PrikazStatistike\ObradaDogadaja\DogadajHandlerZuti.cs" />
+    <Compile Include="PrikazStatistike\DogadajiSubject.cs" />
+    <Compile Include="PrikazStatistike\DogadajObserver.cs" />
+    <Compile Include="PrikazStatistike\DogadajObserverSemafor.cs" />
+    <Compile Include="PrikazStatistike\ObradaDogadaja\DogadajVerifikator.cs" />
+    <Compile Include="PrikazStatistike\PomocneKlase\IgracPostava.cs" />
+    <Compile Include="PrikazStatistike\PomocneKlase\Statistika.cs" />
+    <Compile Include="PrikazStatistike\PomocneKlase\StatistikaBodovi.cs" />
+    <Compile Include="PrikazStatistike\PomocneKlase\StatistikaDogadaj.cs" />
+    <Compile Include="PrikazStatistike\PomocneKlase\StatistikaDogadajKlub.cs" />
+    <Compile Include="PrikazStatistike\PomocneKlase\StatistikaKarton.cs" />
+    <Compile Include="PrikazStatistike\PomocneKlase\StatistikaRezultat.cs" />
+    <Compile Include="PrikazStatistike\PomocneKlase\StatistikaStrijelac.cs" />
+    <Compile Include="PrikazStatistike\PrikazVisitor.cs" />
+    <Compile Include="PrikazStatistike\PrikazVisitorBodovi.cs" />
+    <Compile Include="PrikazStatistike\PrikazVisitorDogadaj.cs" />
+    <Compile Include="PrikazStatistike\PrikazVisitorKarton.cs" />
+    <Compile Include="PrikazStatistike\PrikazVisitorRezultat.cs" />
+    <Compile Include="PrikazStatistike\PrikazVisitorSastavi.cs" />
+    <Compile Include="PrikazStatistike\PrikazVisitorStrijelac.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RasporedUtakmica\GeneratorRasporeda.cs" />
+    <Compile Include="UcitavanjePodataka\UcitavanjeCreator.cs" />
+    <Compile Include="UcitavanjePodataka\UcitavanjeCreatorDogadaj.cs" />
+    <Compile Include="UcitavanjePodataka\UcitavanjeCreatorIgrac.cs" />
+    <Compile Include="UcitavanjePodataka\UcitavanjeCreatorKlub.cs" />
+    <Compile Include="UcitavanjePodataka\UcitavanjeCreatorSastavUtakmice.cs" />
+    <Compile Include="UcitavanjePodataka\UcitavanjeCreatorUtakmica.cs" />
+    <Compile Include="UcitavanjePodataka\UcitavanjeFacade.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
